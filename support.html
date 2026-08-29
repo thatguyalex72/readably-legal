@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Readably — Support</title><link rel="stylesheet" href="style.css">
+</head><body>
+<header>
+<h1>Support</h1>
+<p class="muted">Readably for iOS · Last updated 28 August 2026</p>
+<nav class="muted"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+
+<p>Readably saves articles, recipes, documents and video captions to read later — on your
+device, without an account.</p>
+
+<h2>Getting help</h2>
+<p>Email <a href="mailto:REPLACE-WITH-YOUR-SUPPORT-EMAIL">REPLACE-WITH-YOUR-SUPPORT-EMAIL</a>.
+If you are on a TestFlight build, a screenshot sent through TestFlight is the most useful
+thing you can send — it arrives with the device, iOS version and free space attached, which
+has diagnosed more than one bug that would otherwise have taken days.</p>
+
+<h2>Saving things</h2>
+<h3>How do I save a page?</h3>
+<p>Share it from Safari, or any app with a share button, and choose Readably. You can add a
+title, a collection, tags and a note before saving. Leave the title blank to use the page's
+own.</p>
+
+<h3>The sheet closed but nothing appeared</h3>
+<p>Extraction continues after the sheet closes, which is deliberate — holding it open for
+thirty seconds would be worse. If a save fails you will see a banner in the library
+explaining why, and if one is interrupted you will be offered a Retry. Settings &rsaquo;
+Diagnostics shows exactly where it stopped.</p>
+
+<h3>A page saved with no text</h3>
+<p>Some pages cannot be read without being signed in — a private Google Doc, for example.
+Readably has no sign-in of its own and no access to your browser's session, so it sees the
+sign-in wall rather than your document. Sites that build their text entirely in the browser
+after loading can also come out empty.</p>
+
+<h3>A recipe from a reel only saved part of the caption</h3>
+<p>Some platforms publish a shortened version of a caption. Readably reads the longest
+version a platform makes available. If a caption was written as one run-on paragraph, it is
+kept exactly as written rather than rearranged into a list it was never in.</p>
+
+<h2>Syncing</h2>
+<h3>How does sync work?</h3>
+<p>Through your own iCloud account, in Apple's private database. There is no account to
+create and no password: if you are signed in to iCloud, it works. It uses your iCloud
+storage, not the developer's.</p>
+
+<h3>Something is not syncing</h3>
+<p>Check that Sync is on in Settings, and that the device is signed in to iCloud. Settings
+&rsaquo; Diagnostics &rsaquo; Sync shows how much is still waiting to be sent; if that
+number falls to zero, everything has gone.</p>
+
+<h3>I signed out of iCloud and my library is still here</h3>
+<p>That is deliberate. Signing out or switching accounts keeps everything on the device and
+turns sync off, so nothing is uploaded to a different account without you asking. Turn it
+back on when you are ready.</p>
+
+<h2>Reading</h2>
+<h3>Can it read articles aloud?</h3>
+<p>Yes — the reader has a play control, and it keeps reading with the screen locked, with
+lock-screen and steering-wheel controls. Better voices are a free download in iOS Settings
+&rsaquo; Accessibility &rsaquo; Spoken Content &rsaquo; Voices; Readably lists them once
+they are installed.</p>
+
+<h3>Where did my place go?</h3>
+<p>Reading position and listening position are the same value, so stopping in the car
+resumes on the page.</p>
+
+<h2>Your data</h2>
+<p>Settings can export your whole library as JSON or Markdown at any time. Nothing is held
+by the developer — see the <a href="privacy.html">privacy policy</a> for exactly what
+leaves your device and when.</p>
+
+<footer class="muted"><p>Readably is developed by Alexander Nicholson.</p></footer>
+</body></html>
