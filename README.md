@@ -1,6 +1,6 @@
 # readably-legal
 
-The privacy policy, support page and terms for **Readably**, published with GitHub Pages.
+The privacy policy, support page and terms for **Offtext**, published with GitHub Pages.
 
 This repository is public **only so GitHub Pages can serve it**. The app's source is
 private and lives elsewhere. Nothing here is secret and nothing here should be.
