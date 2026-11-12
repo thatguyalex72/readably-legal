@@ -10,9 +10,8 @@ private and lives elsewhere. Nothing here is secret and nothing here should be.
 Plain HTML, one shared stylesheet, no build step and no dependencies. Edit and push; Pages
 redeploys in a minute or so.
 
-**Before these go live, replace `REPLACE-WITH-YOUR-SUPPORT-EMAIL` in all three pages** with
-the address you want publicly listed. It is deliberately not filled in: a personal address
-published on a public page gets scraped, and that is a decision to make on purpose.
+The public support address is `support@offtext.app` (set 2026-11-11). It forwards to a private
+inbox, so changing where mail lands needs no edit here.
 
 ## Keeping it honest
 
