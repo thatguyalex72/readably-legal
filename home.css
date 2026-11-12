@@ -40,7 +40,7 @@ video {
 .story { display: grid; grid-template-columns: 1fr minmax(0, 19rem); gap: 3rem; align-items: center; }
 .story p { font-size: 1.1rem; color: var(--muted); max-width: 30rem; }
 
-.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; margin: 2rem auto 0; max-width: 50rem; }
 figure { margin: 0; }
 figcaption { margin-top: .9rem; font-size: .95rem; color: var(--muted); }
 figcaption strong { display: block; color: var(--fg); font-size: 1.05rem; margin-bottom: .15rem; }
@@ -56,12 +56,11 @@ footer { text-align: center; padding: 2.5rem 1.25rem 3.5rem; color: var(--muted)
 footer nav a { margin: 0 .6rem; display: inline-block; }
 
 @media (max-width: 860px) {
-  .grid { grid-template-columns: 1fr 1fr; }
   .story { grid-template-columns: 1fr; gap: 1.5rem; }
   .story video { max-width: 19rem; margin: 0 auto; }
 }
 @media (max-width: 480px) {
   .hero { padding: 3rem 1rem 2.5rem; } .hero h1 { font-size: 2.4rem; }
   main { padding: 0 1rem; } section { padding: 2.5rem 0; }
-  .grid { gap: 1rem; } .promise ul { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr; max-width: 19rem; } .promise ul { grid-template-columns: 1fr; }
 }
