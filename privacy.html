@@ -5,7 +5,7 @@
 </head><body>
 <header>
 <h1>Privacy Policy</h1>
-<p class="muted">Offtext for iOS · Last updated 28 August 2026</p>
+<p class="muted">Offtext for iOS · Last updated 11 November 2026</p>
 <nav class="muted"><a href="index.html">Home</a><a href="support.html">Support</a><a href="terms.html">Terms</a></nav>
 </header>
 
@@ -19,14 +19,15 @@ and where you left off — is stored in a database on your device. Nothing is up
 service operated by the developer, because no such service exists.</p>
 
 <h2>What leaves your device</h2>
-<p>Four things, three of which you choose.</p>
+<p>Five things, each only as a result of something you do in the app.</p>
 
 <table>
 <tr><th>What</th><th>When</th><th>Where it goes</th></tr>
 <tr><td>A request for a page you asked to save</td><td>Every save</td><td>The website you are saving</td></tr>
 <tr><td>Your library</td><td>Only while iCloud sync is on</td><td>Your own iCloud account</td></tr>
 <tr><td>Items you choose to send</td><td>Only if you connect Notion</td><td>Notion</td></tr>
-<tr><td>A video link</td><td>Only if you configure a transcription server</td><td>The server you configured</td></tr>
+<tr><td>A request for each site you follow</td><td>When you open the app or refresh the Feed tab, only if you follow sites</td><td>The websites you follow</td></tr>
+<tr><td>A request for a video's player</td><td>Only when you play a saved Instagram or Facebook video</td><td>Instagram or Facebook</td></tr>
 </table>
 
 <h3>Fetching pages you save</h3>
@@ -51,10 +52,18 @@ connected, items you choose to send are sent to Notion, and Notion's own privacy
 apply to them. The authorisation token is held in the iOS Keychain and is never synced,
 never logged, and never sent anywhere except Notion.</p>
 
-<h3>Self-hosted transcription</h3>
-<p>Some videos need a server to extract their audio. That server is one <em>you</em> run;
-Offtext ships with no default and contacts nothing unless you configure it. If you do, the
-video link you are saving is sent to your own server.</p>
+<h3>Feeds</h3>
+<p>If you follow a site in the Feed tab, Offtext requests that site's feed while the app is
+open, and when you pull to refresh, to show you its new posts. When a feed carries only a
+summary, opening a post requests the full article from that site. As with saving a page,
+each site sees an ordinary web request from your device: your IP address and a user agent
+identifying the app. Unfollowing a site stops the requests.</p>
+
+<h3>Playing saved videos</h3>
+<p>Offtext saves a video's caption as text, not the video itself. If you choose to play a
+saved Instagram or Facebook video, the app loads that company's own player, which contacts
+Instagram or Facebook directly and may set cookies, as it would in a browser. Their privacy
+policies apply to that player. Reading the saved caption contacts no one.</p>
 
 <h2>What Offtext does not do</h2>
 <ul>
